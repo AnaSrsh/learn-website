@@ -6,21 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ana</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   </head>
   <body>
 
+    <div class="w3-row">
+      <div class="w3-col w3-green w3-container" style="width:20%">
+      LEFT 20% CONTENT
+      </div>
+
+      <div class="w3-col w3-blue w3-container" style="width:60%">
+        MIDDLE 60% CONTENT
+      </div>
+
+      <div class="w3-col w3-red w3-container" style="width:20%">
+        RIGHT 20% CONTENT 
+      </div>
+    </div>
+
+
+    <div id="container" >
+      <div id="contents">
+    
+        <h3>Contents</h3>
+        <ol>
+          <li> <a href="#healthcare-ra"> Healthcare RA</a></li>
+          <li> <a href="#core-competencies">Core competencies</a> </li>
+          <li>Bla bla bla</li>
+          <li> <a href="#healthcare-ra"> Healthcare RA</a></li>
+          <li> <a href="#core-competencies">Core competencies</a> </li>
+          <li>Bla bla bla</li>
+        </ol>
+      </div>
+    
     <!-- Regulatory Affairs Header -->
     <h1>
       <a
-        href="https://en.wikipedia.org/wiki/Regulatory_affairs"
-        target="_blank"
-        rel="noopener noreferrer"
+      href="https://en.wikipedia.org/wiki/Regulatory_affairs"
+      target="_blank"
+      rel="noopener noreferrer"
       >
-        Regulatory affairs</a
+      Regulatory affairs</a
       >
     </h1>
     <p>From Wikipedia, the free encyclopedia</p>
-
+    
     <!-- 1st paragraph -->
     <p>
       <strong> Regulatory affairs (RA) </strong>, also called
@@ -31,18 +61,18 @@
       within the healthcare industries (pharmaceuticals, medical devices,
       biologics and functional foods).
     </p>
-
-<!-- 2nd paragraph -->
+    
+    <!-- 2nd paragraph -->
     <p>
-      Regulatory affairs professionals (aka regulatory professionals) usually
+      <span class="regulatory"> Regulatory affairs professionals </span> (aka regulatory professionals) usually
       have responsibility for the following general areas:
     </p>
-
-<!-- list -->
+    
+    <!-- list -->
+    <div class="info-list" ><li>
     <ul>
-      <li>
         Ensuring that their companies comply with all of the regulations and
-        laws pertaining to their business.
+        laws pertaining to their business. 
       </li>
       <li>
         Working with federal, state, and local regulatory agencies and personnel
@@ -58,35 +88,27 @@
         Sarbanes-Oxley compliance.
       </li>
     </ul>
-
+    </div>
     <!-- image -->
     <a
-        href="https://en.wikipedia.org/wiki/Regulatory_affairs"
-        target="_blank"
-        rel="noopener noreferrer"
-      > <img
-      src="images/regaffairs.jpeg"
-      alt="Regulatory Affairs"
-      class="reg-img"
-      > </img> </a>
-
-  <!-- Table of contents -->
-
-<h3>Contents</h3>
-<ol>
-  <li> <a href="#healthcare-ra"> Healthcare RA</a></li>
-  <li> <a href="#core-competencies">Core competencies</a> </li>
-  
-</ol>
-
-<!-- Healthcare RA -->
-
-<h2 id="healthcare-ra" >Healthcare RA</h2>
-
-<p>The regulatory function in healthcare industries is vital in making safe and effective healthcare products available worldwide. Individuals who ensure regulatory compliance and prepare submissions, as well as those whose main job function is clinical affairs or quality assurance are all considered regulatory professionals. The most significant responsibility of a Regulatory professional in an export company is to get a product successfully registered and approved by the Health Agency of the country like FDA for USA or EMA for Europe.</p>
-<p>Regulatory professionals are employed in industry, government and academia and are involved with a wide range of products, including:</p>
-
-<ul>
+    href="https://en.wikipedia.org/wiki/Regulatory_affairs"
+    target="_blank"
+    rel="noopener noreferrer"
+    > <img
+    src="images/regaffairs.jpeg"
+    alt="Regulatory Affairs"
+    id="reg-img"
+    > </img> </a>
+    <!-- Table of contents -->
+   
+    <!-- Healthcare RA -->
+    
+    <h2 id="healthcare-ra" >Healthcare RA</h2>
+    
+    <p>The regulatory function in healthcare industries is vital in making safe and effective healthcare products available worldwide. Individuals who ensure regulatory compliance and prepare submissions, as well as those whose main job function is clinical affairs or quality assurance are all considered regulatory professionals. The most significant responsibility of a Regulatory professional in an export company is to get a product successfully registered and approved by the Health Agency of the country like FDA for USA or EMA for Europe.</p>
+    <p>Regulatory professionals are employed in industry, government and academia and are involved with a wide range of products, including:</p>
+    
+    <ul>
 <li>pharmaceuticals</li>
 <li>medical devices</li>
 <li>in vitro diagnostics</li>
@@ -122,7 +144,23 @@
       <th>Regulation</th>
     </tr>
   </thead>
+  <tbody>
+    <tr>
+      <td>Diphteria Epidemic</td>
+      <td>1902</td>
+      <td>Biologics Control act</td>
+    </tr>
+    <tr>
+      <td>Publication of The Jungle</td>
+      <td>1906</td>
+      <td>Pure Foods and Drugs Acts</td>
+    </tr>
+    <td>Thalidomide</td>
+    <td>1962</td>
+    <td>Kefauver Harris Amendments</td>
+  </tbody>
 </table>
-
+<p id="footer"> Contact me for more info </p>
+</div>
 </body>
 </html>
