@@ -1,56 +1,82 @@
-/* Image */
+* {
+  box-sizing: border-box;
+}
 
-#reg-img {
-  width: 50%;
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #5c899e;
+  padding: 20px;
+  text-align: center;
+  color: aliceblue;
+  font-weight: bold;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: hsl(214, 31%, 42%);
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
   display: block;
-  margin: auto;
-  border: 6px ridge purple;
-  position: relative;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-ul {
-  font-family: fantasy;
+/* Change color on hover */
+.topnav a:hover {
+  background-color: rgb(221, 221, 221);
+  color: black;
 }
 
-p {
-  font-family: fantasy;
-  font-size: 12pt;
-  line-height: 1, 5em;
-  font-weight: bolder;
+* {
+  box-sizing: border-box;
 }
 
-.regulatory {
-  color: red;
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.info-list {
-  background-color: rgba(219, 210, 210, 0.993);
-  width: 50%;
-  height: 180px;
-  overflow-y: auto;
-  overflow-x: hidden;
-  margin-bottom: 30px;
-  border: 2px solid purple;
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  background: #ccc;
+  padding: 20px;
 }
 
-#container {
-  width: auto;
-  border: 10px solid purple;
-  padding: 30px;
+/* Style and position of the left menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-#contents {
-  font-size: 13pt;
-  float: right;
-  width: 10%;
-  margin-left: 10px;
+nav {
+  float: left;
+  width: 30%;
+  background: #ccc;
+  padding: 20px;
 }
 
-h3 {
-  position: relative;
-  left: 50px;
-}
+/* Style of the article  */
 
-#footing {
-  background-color: rgb(
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+ }
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
 }
